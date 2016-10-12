@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Philip Heinser",
+    "email": "philipheinser@me.com"
+  },
+  "bugs": {
+    "url": "https://github.com/zo0r/react-native-push-notification/issues"
+  },
+  "dependencies": {},
+  "description": "React Native Local and Remote Notifications with Big Picture Images",
+  "devDependencies": {},
+  "homepage": "https://github.com/zo0r/react-native-push-notification#readme",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "notifications",
+    "push",
+    "apns",
+    "gcm"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "Philip Heinser",
+      "email": "philipheinser@me.com"
+    }
+  ],
+  "name": "react-native-push-notification-image",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.33"
+  },
+  "readme": "ERROR: No README data found!",
+  "rnpm": {
+    "android": {
+      "packageInstance": "new ReactNativePushNotificationPackage()"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.0"
+}
