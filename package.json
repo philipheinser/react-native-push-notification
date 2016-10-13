@@ -28,7 +28,7 @@
       "email": "philipheinser@me.com"
     }
   ],
-  "name": "react-native-push-notification-image",
+  "name": "react-native-push-notification",
   "optionalDependencies": {},
   "peerDependencies": {
     "react-native": ">=0.33"
