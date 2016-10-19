@@ -99,10 +99,8 @@ public class RNPushNotificationHelper {
             sendNotificationWithImage( bundle, null );
             return;
         }
-        if(!Fresco.hasBeenInitialized()) {
-          Fresco.initialize(mContext);
-        }
 
+        Fresco.initialize(mContext);
         ImagePipeline imagePipeline = Fresco.getImagePipeline();
 
         ImageRequest imageRequest = ImageRequestBuilder
