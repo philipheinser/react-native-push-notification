@@ -99,7 +99,7 @@ public class RNPushNotificationHelper {
             sendNotificationWithImage( bundle, null );
             return;
         }
-        if(!Fresco.hasBeenInitialized) {
+        if(!Fresco.hasBeenInitialized()) {
           Fresco.initialize(mContext);
         }
 
