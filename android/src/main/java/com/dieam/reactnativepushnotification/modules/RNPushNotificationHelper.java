@@ -226,11 +226,12 @@ public class RNPushNotificationHelper {
             }
 
             if( image != null ){
+              notification.setContentText(message);
               notification.setStyle(
                     new NotificationCompat.BigPictureStyle()
                             .bigPicture(image)
                             .setBigContentTitle( title )
-                            .setContentText( message )
+                            .setSummaryText( message )
                             );
             } else {
                 notification.setContentText(message);
