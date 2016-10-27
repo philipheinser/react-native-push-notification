@@ -230,7 +230,7 @@ public class RNPushNotificationHelper {
                     new NotificationCompat.BigPictureStyle()
                             .bigPicture(image)
                             .setBigContentTitle( title )
-                            .setSummaryText( message )
+                            .setContentText( message )
                             );
             } else {
                 notification.setContentText(message);
